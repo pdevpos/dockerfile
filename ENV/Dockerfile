@@ -1,4 +1,4 @@
 FROM almalinux:9
 ENV username="abc" \
-    password = "def" \
+    password="def" \
 CMD ["sleep","1000"]
