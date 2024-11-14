@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN adduser expense
-User expenseadd
+USER expenseadd
 CMD ["sleep","100"]
