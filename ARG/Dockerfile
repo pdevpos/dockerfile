@@ -1,7 +1,7 @@
 ARG version
 FROM almalinux:${version:-8}
-ARG Course
-ARG Trainer
+ARG COURSE
+ARG TRAINER
 ENV Duration
-RUN "Course is:${Course},Trainer is :${Trainer},Duration:${Duration}"
+RUN "course is : ${COURSE}, Trainer is : ${TRAINER}"
 
