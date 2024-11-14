@@ -1,7 +1,7 @@
 ARG version
 FROM almalinux:${version}
 ARG COURSE
-ENV TRAINER
-RUN echo "course is:${COURSE},Trainer is :${TRAINER}"
+ENV TRAINER="Siva"
+RUN echo "course is:${COURSE}"
 CMD [ "sleep", "100" ]
 
